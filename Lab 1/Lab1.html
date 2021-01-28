@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title> Sign Up </title>
+  </head>
+  <body>
+    <h1> Sign Up </h1>
+    <p>
+        Please read the terms of service before signing up.
+    </p>
+    <a href="https://www.washingtonpost.com/terms-of-service/2011/11/18/gIQAldiYiN_story.html"> terms of service</a>
+  </body>
+  <form method="post">
+      <lable> Email:</lable>
+      <input type="email" placeholder="Enter Email"/><br>
+      <lable> Password:</lable>
+      <input type="password" placeholder="Password"/><br>
+      <label> Gender: </label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="checkbox" value="ToS">
+      <label> You have read the terms of service</label><br>
+      <input type="submit" value="Sign Up">
+  </form>
+
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.
+  </button>
+  <p id="demo"></p>
+</html>
