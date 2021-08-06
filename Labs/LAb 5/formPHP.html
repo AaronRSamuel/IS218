@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<h1>The Submit Button (Get)</h1>
+<form action="get_action_page.php" method="get">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse"><br>
+  Password:<br>
+  <input type = "password" name = "password"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>The Submit Button (Post)</h1>
+<form action='post_action_page.php' method="post">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>Radio Button Input</h1>
+<form action = "get_action_page.php" method='get'>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br>
+  <input type="submit" value="Submit">
+</form>
+
+<h1>drop down list</h1>
+<form action = "get_action_page.php" method='get'>
+  <select name = "card_type">
+     <option value = "visa"> VISA </option>
+	 <option value = "mc"> MasterCard </option>
+	 <option value = "dis"> DISCOvery </option>
+	 <option value = "amex"> A-Mex </option>
+	</select>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
